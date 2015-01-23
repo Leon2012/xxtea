@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DEA78C1A71E1DD00436570 /* libxxtea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DEA7801A71E1DA00436570 /* libxxtea.a */; };
+		70DEA79C1A71E3CE00436570 /* xxtea-objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DEA79B1A71E3CE00436570 /* xxtea-objc.m */; };
+		70DEA79F1A71E3E000436570 /* xxtea.c in Sources */ = {isa = PBXBuildFile; fileRef = 70DEA79D1A71E3E000436570 /* xxtea.c */; };
+		70DEA7A11A71E76D00436570 /* xxtea.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DEA7A01A71E76D00436570 /* xxtea.m */; };
+		70DEA7A51A71F8EB00436570 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DEA7A31A71F8EB00436570 /* GTMBase64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70DEA78D1A71E1DD00436570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DEA7781A71E1D800436570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DEA77F1A71E1D900436570;
+			remoteInfo = xxtea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70DEA77E1A71E1D900436570 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70DEA7801A71E1DA00436570 /* libxxtea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DEA78B1A71E1DD00436570 /* xxteaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xxteaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DEA7911A71E1DD00436570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DEA79A1A71E3CE00436570 /* xxtea-objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "xxtea-objc.h"; sourceTree = "<group>"; };
+		70DEA79B1A71E3CE00436570 /* xxtea-objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "xxtea-objc.m"; sourceTree = "<group>"; };
+		70DEA79D1A71E3E000436570 /* xxtea.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xxtea.c; sourceTree = "<group>"; };
+		70DEA79E1A71E3E000436570 /* xxtea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxtea.h; sourceTree = "<group>"; };
+		70DEA7A01A71E76D00436570 /* xxtea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xxtea.m; sourceTree = "<group>"; };
+		70DEA7A21A71F8EB00436570 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		70DEA7A31A71F8EB00436570 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		70DEA7A41A71F8EB00436570 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70DEA77D1A71E1D900436570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DEA7881A71E1DD00436570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DEA78C1A71E1DD00436570 /* libxxtea.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DEA7771A71E1D700436570 = {
+			isa = PBXGroup;
+			children = (
+				70DEA7821A71E1DA00436570 /* xxtea */,
+				70DEA78F1A71E1DD00436570 /* xxteaTests */,
+				70DEA7811A71E1DA00436570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70DEA7811A71E1DA00436570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DEA7801A71E1DA00436570 /* libxxtea.a */,
+				70DEA78B1A71E1DD00436570 /* xxteaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DEA7821A71E1DA00436570 /* xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				70DEA7A21A71F8EB00436570 /* GTMBase64.h */,
+				70DEA7A31A71F8EB00436570 /* GTMBase64.m */,
+				70DEA7A41A71F8EB00436570 /* GTMDefines.h */,
+				70DEA79D1A71E3E000436570 /* xxtea.c */,
+				70DEA79E1A71E3E000436570 /* xxtea.h */,
+				70DEA79A1A71E3CE00436570 /* xxtea-objc.h */,
+				70DEA79B1A71E3CE00436570 /* xxtea-objc.m */,
+			);
+			path = xxtea;
+			sourceTree = "<group>";
+		};
+		70DEA78F1A71E1DD00436570 /* xxteaTests */ = {
+			isa = PBXGroup;
+			children = (
+				70DEA7901A71E1DD00436570 /* Supporting Files */,
+				70DEA7A01A71E76D00436570 /* xxtea.m */,
+			);
+			path = xxteaTests;
+			sourceTree = "<group>";
+		};
+		70DEA7901A71E1DD00436570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70DEA7911A71E1DD00436570 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70DEA77F1A71E1D900436570 /* xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DEA7941A71E1DD00436570 /* Build configuration list for PBXNativeTarget "xxtea" */;
+			buildPhases = (
+				70DEA77C1A71E1D900436570 /* Sources */,
+				70DEA77D1A71E1D900436570 /* Frameworks */,
+				70DEA77E1A71E1D900436570 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xxtea;
+			productName = xxtea;
+			productReference = 70DEA7801A71E1DA00436570 /* libxxtea.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		70DEA78A1A71E1DD00436570 /* xxteaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DEA7971A71E1DD00436570 /* Build configuration list for PBXNativeTarget "xxteaTests" */;
+			buildPhases = (
+				70DEA7871A71E1DD00436570 /* Sources */,
+				70DEA7881A71E1DD00436570 /* Frameworks */,
+				70DEA7891A71E1DD00436570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DEA78E1A71E1DD00436570 /* PBXTargetDependency */,
+			);
+			name = xxteaTests;
+			productName = xxteaTests;
+			productReference = 70DEA78B1A71E1DD00436570 /* xxteaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70DEA7781A71E1D800436570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Leon Peng";
+				TargetAttributes = {
+					70DEA77F1A71E1D900436570 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					70DEA78A1A71E1DD00436570 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 70DEA77B1A71E1D800436570 /* Build configuration list for PBXProject "xxtea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70DEA7771A71E1D700436570;
+			productRefGroup = 70DEA7811A71E1DA00436570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70DEA77F1A71E1D900436570 /* xxtea */,
+				70DEA78A1A71E1DD00436570 /* xxteaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70DEA7891A71E1DD00436570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70DEA77C1A71E1D900436570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DEA79F1A71E3E000436570 /* xxtea.c in Sources */,
+				70DEA7A51A71F8EB00436570 /* GTMBase64.m in Sources */,
+				70DEA79C1A71E3CE00436570 /* xxtea-objc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DEA7871A71E1DD00436570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DEA7A11A71E76D00436570 /* xxtea.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DEA78E1A71E1DD00436570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DEA77F1A71E1D900436570 /* xxtea */;
+			targetProxy = 70DEA78D1A71E1DD00436570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70DEA7921A71E1DD00436570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70DEA7931A71E1DD00436570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70DEA7951A71E1DD00436570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70DEA7961A71E1DD00436570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70DEA7981A71E1DD00436570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xxteaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70DEA7991A71E1DD00436570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xxteaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70DEA77B1A71E1D800436570 /* Build configuration list for PBXProject "xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DEA7921A71E1DD00436570 /* Debug */,
+				70DEA7931A71E1DD00436570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DEA7941A71E1DD00436570 /* Build configuration list for PBXNativeTarget "xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DEA7951A71E1DD00436570 /* Debug */,
+				70DEA7961A71E1DD00436570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70DEA7971A71E1DD00436570 /* Build configuration list for PBXNativeTarget "xxteaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DEA7981A71E1DD00436570 /* Debug */,
+				70DEA7991A71E1DD00436570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70DEA7781A71E1D800436570 /* Project object */;
+}
