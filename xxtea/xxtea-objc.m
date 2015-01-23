@@ -111,10 +111,9 @@ NSString* xxtea_encrypt(NSString *data, NSString *key) {
     if (key_len < 16) {
         unsigned char *key2 = fix_key_length(c_key, key_len);
         result = php_xxtea_encrypt(c_data, data_len, key2, &ret_length);
-        free(key2);
         printf("%s\n", result);
-        
         NSString *str = [GTMBase64 stringByEncodingBytes:result length:ret_length];
+        free(key2);
         return str;
     }else{
         result = php_xxtea_encrypt(c_data, data_len, c_key, &ret_length);
@@ -148,8 +147,8 @@ NSString* xxtea_decrypt(NSString *data, NSString *key) {
     if (key_len < 16) {
         unsigned char *key2 = fix_key_length(c_key, key_len);
         result = php_xxtea_decrypt(c_data, data_len, key2, &ret_length);
-        free(key2);
         NSString *str = [[NSString alloc] initWithCString:result encoding:NSUTF8StringEncoding];
+        free(key2);
         return str;
     }else{
         result = php_xxtea_decrypt(c_data, data_len, c_key, &ret_length);
