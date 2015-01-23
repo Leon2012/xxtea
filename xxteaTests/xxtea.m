@@ -45,8 +45,8 @@
     NSString *encrypt = xxtea_encrypt(data, key);
     NSLog(@"encrypt str %@", encrypt);
     
-    NSString *decrypt = xxtea_decrypt(encrypt, key);
-    NSLog(@"decrypt str %@", decrypt);
+//    NSString *decrypt = xxtea_decrypt(encrypt, key);
+//    NSLog(@"decrypt str %@", decrypt);
 }
 
 - (void)testDecrypt {
